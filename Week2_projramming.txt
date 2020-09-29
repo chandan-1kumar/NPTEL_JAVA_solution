@@ -1,0 +1,146 @@
+Q1.
+    // This is the class named School
+class School { 
+    // This is a method in class School
+    public void print() { 
+		System.out.println("Hi! I class SCHOOL."); 
+    } 
+} 
+// This is the class named Student
+class Student { 
+	// This is a method in class Student
+    public void print() { 
+		System.out.println("Hi! I am class STUDENT"); 
+    } 
+}
+
+public class Question21{ 
+    public static void main(String args[]){
+// Create an object of class Student
+Student s1= new Student();
+
+// Call 'print()' method of class Student 
+s1.print();
+
+// Create an object of class School
+School s2=new School();
+
+
+// Call 'print()' method of class School
+s2.print();
+     } 
+}
+
+
+
+Q2.
+    // This is the class named Printer
+class Printer { 
+    // This are the methods in class Printer
+    public void print() { 
+		System.out.println("Hi! I class SCHOOL."); 
+    } 
+    public void print(String s) { 
+		System.out.println(s); 
+    } 
+} 
+
+public class Question22{ 
+    public static void main(String[] args) {    
+// Create an object of class Printer
+Printer p = new Printer();
+
+// Call 'print()' methods for desired output
+p.print("Hi! I am class STUDENT");
+
+p.print();
+      }
+}
+
+
+Q3.
+    // This is the main class Question
+public class Question23{ 
+    public static void main(String[] args) { 
+		// Object of the main class is created
+		Question23 q = new Question23();
+		// Print method on object of Question class is called
+		q.studentMethod();
+    }
+	
+	// 'print()' method is defined in class Question
+	void print(Question23 object){
+		System.out.print("Well Done!");
+	}
+
+// Define a method named 'studentMethod()' in class Question
+ void  studentMethod()
+ {
+ 
+
+// Call the method named 'print()' in class Question
+         print(this); 
+    }
+
+}
+
+Q4.  
+    // This is the main class Question
+public class Question214{
+	public static void main(String[] args){
+		Answer a = new Answer(10,"MCQ");
+	}
+}
+  class Answer{
+	Answer(){
+		System.out.println("You got nothing.");
+	}
+	Answer(int marks, String type){	
+      
+      this();
+      
+		System.out.println("You got "+marks+" for an "+ type);
+	}
+}
+
+
+
+Q5.
+     public class Question215{ 
+    public static void main(String[] args) { 
+
+     //Declare variable with name 'nptel', 'space' and 'java' and proper datatype.
+
+String nptel, space, java;
+
+//Initialize the variables with proper input
+nptel = "NPTEL";
+
+space = " ";
+
+java ="JAVA";
+
+     System.out.print(nptel+space+java);
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
